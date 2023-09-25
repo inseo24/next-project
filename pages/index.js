@@ -1,12 +1,16 @@
-import NavBar from '../components/Navbar';
+// import NavBar from '../components/Navbar';
+import { useRouter } from 'next/router';
 
-// Homepage에 Navbar 적용
 function Homepage() {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/mypage');
+  };
 
   return (
     <div>
-      <NavBar />
-      <div> hi, im seoin!</div>
+      <button onClick={handleClick}>Go to My Page</button>
     </div>
   );
 }
