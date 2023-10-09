@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 
 export default async (req, res) => {
     const apiKey = req.headers['authorization'];
-    if (apiKey === undefined || apiKey != "realwroldnextjs") {
+    if (apiKey === undefined || apiKey != "realworldnextjs") {
         res.status(403).json();
         return
     }
