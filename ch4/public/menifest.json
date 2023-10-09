@@ -1,0 +1,21 @@
+// <link rel="manifest" href="manifest.json" />
+{
+    "name": "My Next.js App",
+    "short_name": "Next.js App",
+    "description": "A test app made with Next.js",
+    "background_color": "#a600ff",
+    "display": "standalone",
+    "theme_color": "#a600ff",
+    "icons": [
+        {
+            "src": "/static/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
