@@ -8,8 +8,8 @@
 - [x] CHAPTER 2 렌더링 전략
 - [x] CHAPTER 3 Next.js 기초와 내장 컴포넌트
 - [x] CHAPTER 4 코드 구성과 데이터 불러오기
-- [ ] CHAPTER 5 지역 및 전역 상태 관리
-- [ ] CHAPTER 6 CSS와 내장 스타일링 메서드
+- [x] CHAPTER 5 지역 및 전역 상태 관리
+- [x] CHAPTER 6 CSS와 내장 스타일링 메서드
 - [ ] CHAPTER 7 UI 프레임워크
 - [ ] CHAPTER 8 커스텀 서버
 - [ ] CHAPTER 9 테스트
